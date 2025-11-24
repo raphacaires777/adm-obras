@@ -82,25 +82,28 @@ export function NavUser({
             <DropdownMenuSeparator />
             <DropdownMenuGroup>
               <DropdownMenuItem>
-                <Sparkles />
-                Configurações da Conta
+                <Sparkles className="mr-2 h-4 w-4" />
+                Upgrade para Pro
+              </DropdownMenuItem>
+            </DropdownMenuGroup>
+            <DropdownMenuSeparator />
+            <DropdownMenuGroup>
+              <DropdownMenuItem>
+                <BadgeCheck className="mr-2 h-4 w-4" />
+                Conta
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <BadgeCheck />
-                Verificar Conta
+                <CreditCard className="mr-2 h-4 w-4" />
+                Faturamento
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <CreditCard />
-                Gerenciar Assinatura
-              </DropdownMenuItem>
-              <DropdownMenuItem>
-                <Bell />
+                <Bell className="mr-2 h-4 w-4" />
                 Notificações
               </DropdownMenuItem>
             </DropdownMenuGroup>
             <DropdownMenuSeparator />
             <DropdownMenuItem>
-              <LogOut />
+              <LogOut className="mr-2 h-4 w-4" />
               Sair
             </DropdownMenuItem>
           </DropdownMenuContent>

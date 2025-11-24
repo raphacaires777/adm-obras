@@ -19,6 +19,8 @@ import {
   Calendar,
   Briefcase,
   Building,
+  Wallet,
+  Calculator,
 } from "lucide-react"
 
 import { NavMain } from "@/components/nav-main"
@@ -113,6 +115,14 @@ const data = {
         {
           title: "Alertas",
           url: "/financeiro/alertas",
+        },
+        {
+          title: "Recibo Semanal",
+          url: "/financeiro/recibo-semanal",
+        },
+        {
+          title: "Estimativa de Custos",
+          url: "/financeiro/estimativa-custos",
         },
       ],
     },
@@ -238,6 +248,62 @@ const data = {
           url: "/projetos/relatorios",
         },
       ],
+    },
+    {
+      title: "Centro de Custo",
+      url: "/centro-custo",
+      icon: Wallet,
+      items: [
+        {
+          title: "Projetos e Documentos",
+          url: "/centro-custo/projetos-documentos",
+        },
+        {
+          title: "Consumo",
+          url: "/centro-custo/consumo",
+        },
+        {
+          title: "Fundação",
+          url: "/centro-custo/fundacao",
+        },
+        {
+          title: "Alvenaria",
+          url: "/centro-custo/alvenaria",
+        },
+        {
+          title: "Acabamento",
+          url: "/centro-custo/acabamento",
+        },
+        {
+          title: "Estrutura",
+          url: "/centro-custo/estrutura",
+        },
+        {
+          title: "Serralheria",
+          url: "/centro-custo/serralheria",
+        },
+        {
+          title: "Elétrico",
+          url: "/centro-custo/eletrico",
+        },
+        {
+          title: "Hidráulico",
+          url: "/centro-custo/hidraulico",
+        },
+        {
+          title: "Mão de Obra",
+          url: "/centro-custo/mao-de-obra",
+        },
+        {
+          title: "Diversos",
+          url: "/centro-custo/diversos",
+        },
+      ],
+    },
+    {
+      title: "Calculadora de Concreto",
+      url: "/calculadora-concreto",
+      icon: Calculator,
     },
   ],
   projects: [
